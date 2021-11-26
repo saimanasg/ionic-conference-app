@@ -3,7 +3,7 @@ agent any
 
 stages{
 		
-		stage(Build){
+		stage('Build'){
 			steps{
 					sh 'npm install'
 					//sh 'cordova plugin add plugin_src/iamsdkionic-capgemini_cordova_sdk/'
