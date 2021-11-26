@@ -5,10 +5,10 @@ stages{
 		
 		stage('Build'){
 			steps{
-					sh 'npm install'
+					bat 'npm install'
 					//sh 'cordova plugin add plugin_src/iamsdkionic-capgemini_cordova_sdk/'
-					sh 'ionic cordova platform add android' 
-					sh 'ionic cordova build android' 
+					bat 'ionic cordova platform add android' 
+					bat 'ionic cordova build android' 
 			}
 		}
 		
