@@ -10,7 +10,7 @@ stages{
           //bat 'npm install -g @ionic/cli'
 					//bat 'ionic cordova platform add android' 
 					//bat 'ionic cordova build android' 
-        bat 'npm -version'
+        bat 'ionic -version'
 			}
 		}
 		
